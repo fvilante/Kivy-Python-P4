@@ -1,0 +1,26 @@
+#:kivy 1.10.0
+
+<Container>:
+    display: display
+    flavioButton: flavioButton
+
+    rows: 1
+
+    BoxLayout:
+        orientation: "vertical"
+        AddButton:
+            text: "+1"
+            on_release: root.add_one()
+        SubtractButton:
+            text: "-1"
+            on_release: root.subtract_one()
+        FlavioButton:
+            id: flavioButton
+            text: "Reset"
+            on_release: root.flavio_button()
+
+
+    Label:
+        id: display
+        font_size: dp(100)
+        text: '0'
