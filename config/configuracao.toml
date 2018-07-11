@@ -1,0 +1,23 @@
+title = "Banco de dados de configuracao"
+
+[cabecote.branco]
+    x = 10
+    y = 10
+    porta_serial = "COM1"
+
+[cabecote.preto]
+    x = 0
+    y = 0
+    porta_serial = "COM2"
+
+[eixo.x]
+    porta_serial = "COM3"
+
+[eixo.y]
+    porta_serial = "COM4"
+
+[eixo.z]
+    porta_serial = "COM5"
+
+
+

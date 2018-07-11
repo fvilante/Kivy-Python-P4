@@ -1,0 +1,56 @@
+title = "Arquivos POS de configuracao de Eixo CMPP para varias etapas do processo (ie: referencia, producao...)"
+
+[POS.base]
+    Posicao_inicial = 6666
+    Posicao_final = 6666
+    Aceleracao_de_avanco = 6666
+    Aceleracao_de_retorno = 6666
+    Velocidade_de_avanco = 6666
+    Velocidade_de_retorno = 6666
+    Numero_de_mensagens_no_avanco = 6666
+    Numero_de_mensagens_no_retorno = 6666
+    Posicao_da_primeira_impressao_no_avanco = 6666
+    Posicao_da_primeira_impressao_no_retorno = 6666
+    Posicao_da_ultima_impressao_no_avanco = 6666
+    Posicao_da_ultima_impressao_no_retorno = 6666
+    Largura_do_sinal_de_impressao = 6666
+    Tempo_para_start_automatico = 6666
+    Tempo_para_start_externo = 6666
+    Antecipacao_da_saida_de_start = 6666
+    # configuracao de eixo(apenas referente a placa CMPP)
+    Janela_de_protecao_para_o_giro = 6666
+    Numero_de_pulsos_por_giro_do_motor = 6666
+    Valor_da_posicao_de_referencia = 6666
+    Aceleracao_de_referencia = 6666
+    Velocidade_de_referencia = 6666
+    # CMDFLASH = 96(0x60)
+    Start_automatico_no_avanco = 6666
+    Start_automatico_no_retorno = 6666
+    Saida_de_start_no_avanco = 6666
+    Saida_de_start_no_retorno = 6666
+    Entrada_de_start_externo = 6666
+    Logica_de_start_externo = 6666
+    Entrada_de_start_entre_eixos = 6666
+    Referencia_pelo_start_externo = 6666
+    Logica_de_sinal_de_impressao = 6666
+    Logica_de_sinal_de_reversao = 6666
+    Selecao_de_mensagem_via_serial = 6666
+    Reversao_de_mensagem_via_serial = 6666
+    Giro_com_funcao_de_protecao = 6666
+    Giro_com_funcao_de_correcao = 6666
+    Reducao_da_corrente_de_repouso = 6666
+    Modo_continuo_passo_a_passo = 6666
+
+
+[POS.referenciar_x]
+    Inhirit = "base"
+    Aceleracao_de_avanco = 7777
+
+[POS.referenciar_y]
+    Inhirit = "base"
+    Aceleracao_de_avanco = 2000
+
+[POS.referenciar_z]
+    Inhirit = "base"
+    Aceleracao_de_avanco = 3000
+

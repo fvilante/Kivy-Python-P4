@@ -1,0 +1,239 @@
+title = "Memmap do driver cmpp00LG"
+
+[info]
+
+    avr_versao = "CMPP00LG"
+    funcionalidade = "Movimentador Generico"
+    versao_driver = [0, 0, 1]
+
+# arquivo de eixo(apenas referente a placa CMPP)
+[Posicao_inicial]
+    descricao = "Posicao inicial"
+    comando = 80
+    bitlen = 16
+    startbit = 0
+
+[Posicao_final]
+    descricao = "Posicao final"
+    comando = 81
+    bitlen = 16
+    startbit = 0
+
+[Aceleracao_de_avanco]
+    descricao = "Aceleracao de avanco"
+    comando = 82
+    bitlen = 16
+    startbit = 0
+
+[Aceleracao_de_retorno]
+    descricao = "Aceleracao de retorno"
+    comando = 83
+    bitlen = 16
+    startbit = 0
+
+[Velocidade_de_avanco]
+    descricao = "Velocidade de avanco"
+    comando = 84
+    bitlen = 16
+    startbit = 0
+
+[Velocidade_de_retorno]
+    descricao = "Velocidade de retorno"
+    comando = 84
+    bitlen = 16
+    startbit = 0
+
+[Numero_de_mensagens_no_avanco]
+    descricao = "Numero de mensagens no avanco"
+    comando = 86
+    bitlen = 8
+    startbit = 8
+
+[Numero_de_mensagens_no_retorno]
+    descricao = "Numero de mensagens no retorno"
+    comando = 86
+    bitlen = 8
+    startbit = 0
+
+[Posicao_da_primeira_impressao_no_avanco]
+    descricao = "Posicao da primeira impressao no avanco"
+    comando = 87
+    bitlen = 16
+    startbit = 0
+
+[Posicao_da_primeira_impressao_no_retorno]
+    descricao = "Posicao da primeira impressao no retorno"
+    comando = 88
+    bitlen = 16
+    startbit = 0
+
+[Posicao_da_ultima_impressao_no_avanco]
+    descricao = "Posicao da ultima impressao no avanco"
+    comando = 89
+    bitlen = 16
+    startbit = 0
+
+[Posicao_da_ultima_impressao_no_retorno]
+    descricao = "Posicao da ultima impressao no retorno"
+    comando = 90
+    bitlen = 16
+    startbit = 0
+
+[Largura_do_sinal_de_impressao]
+    descricao = "Largura do sinal de impressao"
+    comando = 91
+    bitlen = 16
+    startbit = 0
+
+[Tempo_para_start_automatico]
+    descricao = "Tempo para start automatico"
+    comando = 92
+    bitlen = 16
+    startbit = 0
+
+[Tempo_para_start_externo]
+    descricao = "Tempo para start externo"
+    comando = 93
+    bitlen = 16
+    startbit = 0
+
+[Antecipacao_da_saida_de_start]
+    descricao = "Antecipacao de saida de start"
+    comando = 94
+    bitlen = 16
+    startbit = 0
+
+# configuracao de eixo(apenas referente a placa CMPP)
+[Janela_de_protecao_para_o_giro]
+    descricao = "Janela de protecao para o giro"
+    comando = 97
+    bitlen = 16
+    startbit = 0
+
+[Numero_de_pulsos_por_giro_do_motor]
+    descricao = "Numero de pulsos por giro do motor"
+    comando = 98
+    bitlen = 16
+    startbit = 0
+
+[Valor_da_posicao_de_referencia]
+    descricao = "valor da posicao de referencia"
+    comando = 99
+    bitlen = 16
+    startbit = 0
+
+[Aceleracao_de_referencia]
+    descricao = "Aceleracao de referencia"
+    comando = 100
+    bitlen = 16
+    startbit = 0
+
+[Velocidade_de_referencia]
+    descricao = "Velocidade de referencia"
+    comando = 101
+    bitlen = 16
+    startbit = 0
+
+# CMDFLASH = 96(0x60)
+[Start_automatico_no_avanco]
+    descricao = "Start automatico no avanco"
+    comando = 96
+    bitlen = 1
+    startbit = 0
+
+[Start_automatico_no_retorno]
+    descricao = "Start automatico no retorno"
+    comando = 96
+    bitlen = 1
+    startbit = 1
+
+[Saida_de_start_no_avanco]
+    descricao = "Saida de start no avanco"
+    comando = 96
+    bitlen = 1
+    startbit = 2
+
+[Saida_de_start_no_retorno]
+    descricao = "Saida de start no retorno"
+    comando = 96
+    bitlen = 1
+    startbit = 3
+
+[Entrada_de_start_externo]
+    descricao = "Entrada de start externo"
+    comando = 96
+    bitlen = 1
+    startbit = 4
+
+[Logica_de_start_externo]
+    descricao = "Logica de start externo"
+    comando = 96
+    bitlen = 1
+    startbit = 5
+
+[Entrada_de_start_entre_eixos]
+    descricao = "Entrada de start entre eixos"
+    comando = 96
+    bitlen = 1
+    startbit = 6
+
+[Referencia_pelo_start_externo]
+    descricao = "Referencia pelo start externo"
+    comando = 96
+    bitlen = 1
+    startbit = 7
+
+[Logica_de_sinal_de_impressao]
+    descricao = "Logica de sinal de impressao"
+    comando = 96
+    bitlen = 1
+    startbit = 8
+
+[Logica_de_sinal_de_reversao]
+    descricao = "Logica de sinal de reversao"
+    comando = 96
+    bitlen = 1
+    startbit = 9
+
+[Selecao_de_mensagem_via_serial]
+    descricao = "Selecao de mensagem via serial"
+    comando = 96
+    bitlen = 1
+    startbit = 10
+
+[Reversao_de_mensagem_via_serial]
+    descricao = "Reversao de mensagem via serial"
+    comando = 96
+    bitlen = 1
+    startbit = 11
+
+[Giro_com_funcao_de_protecao]
+    descricao = "Giro com funcao de protecao"
+    comando = 96
+    bitlen = 1
+    startbit = 12
+
+[Giro_com_funcao_de_correcao]
+    descricao = "Giro com funcao de correcao"
+    comando = 96
+    bitlen = 1
+    startbit = 13
+
+[Reducao_da_corrente_de_repouso]
+    descricao = "Reducao da corrente de repouso"
+    comando = 96
+    bitlen = 1
+    startbit = 14
+
+[Modo_continuo_passo_a_passo]
+    descricao = "Modo continuo ou passo-a-passo"
+    comando = 96
+    bitlen = 1
+    startbit = 15
+
+
+
+
+
+
+
