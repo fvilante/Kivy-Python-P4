@@ -1,0 +1,19 @@
+title = "Banco de dados de matrizes"
+
+[matriz.10101010]
+
+    offset_avanco = 10
+    offset_retorno = 20
+    x1 = 10
+    x2 = 20
+    y1 = 100
+    y2 = 200
+
+[matriz.20202020]
+
+    offset_avanco = 30
+    offset_retorno = 30
+    x1 = 30
+    x2 = 30
+    y1 = 30
+    y2 = 30
